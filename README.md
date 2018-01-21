@@ -79,4 +79,26 @@ A tidy version of this dataset is one in which the income values would not be co
     |Atheist                 |	$10 -20k |	  27      |
     ...
     
+### The columns headers are composed of values: the week number (x1st.week, …)
+    
+If a song is in the Top 100 for less than 75 weeks, the remaining columns are filled with 
+missing values.
+
+The data set used to follow this example is the next (you have it as well in csv format in the data 
+folder in the project)
+
+![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/billboear%20data.png)
+
+A tidier version of the dataset is one with column name as week and the values as themselves 
+values for this column as shown in the image
+
+![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/billboear%20tidier.png)
+
+ There is still a lot of repetition of the song details: the track name, time and genre. For this 
+ reason, this dataset is still not completely tidy as we defined earlier. We will address this 
+ in the next example.
+
+  
+      
+    
     
