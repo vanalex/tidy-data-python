@@ -92,7 +92,7 @@ folder in the project)
 A tidier version of the dataset is one with column name as week and the values as themselves 
 values for this column as shown in the image
 
-![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/billboear%20tidier.png)
+![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/billboard%20tidier.png)
 
  There is still a lot of repetition of the song details: the track name, time and genre. For this 
  reason, this dataset is still not completely tidy as we defined earlier. We will address this 
