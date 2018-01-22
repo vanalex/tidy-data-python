@@ -97,6 +97,25 @@ values for this column as shown in the image
  There is still a lot of repetition of the song details: the track name, time and genre. For this 
  reason, this dataset is still not completely tidy as we defined earlier. We will address this 
  in the next example.
+ 
+### Multiple observational units (the song and its rank) in a single table.
+On this occasion we will show you the problem of the repetition. In the billboard dataset we can see
+that a song is repeated many times because it has several ranks along the time. In order to not have
+these repetitions, we can do the next:
+
+ - We firstly clean the repeated rows from the dataset. After cleaning, it is created an index for the
+    song, and identifier.
+    
+    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/billboard%20repeated%20cleaned.png)
+    
+ - Then, we create another dataset containing the song id or index referencing the previous one created,
+   the rank and date.
+   
+    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/song_rank.png)
+   
+   
+
+   
 
   
       
