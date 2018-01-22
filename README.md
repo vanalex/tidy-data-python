@@ -125,14 +125,14 @@ Problems:
    
 This is the initial dataset
     
-    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/tuberculosis.png)
+   ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/tuberculosis.png)
 
 As we can see, we have the problems mentioned above. We need to remove the values from the header mixing age and sex
 and unpivot them into rows. We’ll first need to melt the sex + age group columns into a single one. Once we have that 
 single column, we’ll derive three columns from it: sex, age_lower and age_upper. With those, we’ll be able to 
 properly build a tidy dataset. The result should be like this one
  
-    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/cleaned%20tuberculosis.png)
+   ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/cleaned%20tuberculosis.png)
 
    
 
