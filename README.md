@@ -114,6 +114,25 @@ these repetitions, we can do the next:
     ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/song_rank.png)
    
    
+### Multiple variables stored in one column
+
+This dataset documents the count of confirmed tuberculosis cases by country, year, age and sex.
+
+Problems:
+ - Some columns contain multiple values: sex and age.
+ - Mixture of zeros and missing values NaN. This is due to the data collection process and the distinction is 
+   important for this dataset.
+   
+This is the initial dataset
+    
+    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/tuberculosis.png)
+
+As we can see, we have the problems mentioned above. We need to remove the values from the header mixing age and sex
+and unpivot them into rows. We’ll first need to melt the sex + age group columns into a single one. Once we have that 
+single column, we’ll derive three columns from it: sex, age_lower and age_upper. With those, we’ll be able to 
+properly build a tidy dataset. The result should be like this one
+ 
+    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/cleaned%20tuberculosis.png)
 
    
 
