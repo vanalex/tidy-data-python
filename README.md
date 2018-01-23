@@ -147,9 +147,17 @@ individual columns: tmin. tmax and date.
 
    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/weather%20data%20cleaned.png)
 
-   
 
-  
+### One type in multiple tables
+   
+ - The data is spread across multiple tables/files.
+ - The “Year” variable is present in the file name. 
+
+In order to load those different files into a single DataFrame, we can run a custom script that will append the 
+files together. Furthermore, we’ll need to extract the “Year” variable from the file name.
+
+The result is 
+   ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/babies%20name.png)
       
     
     
