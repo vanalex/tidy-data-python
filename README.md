@@ -133,6 +133,19 @@ single column, we’ll derive three columns from it: sex, age_lower and age_uppe
 properly build a tidy dataset. The result should be like this one
  
    ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/cleaned%20tuberculosis.png)
+   
+### Variables are stored in both rows and columns
+
+The problem here is that variables are stored in both rows (tmin, tmax) and columns (days).
+
+Firstly, we show the original one
+    
+   ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/weather.png) 
+
+In order to make this dataset tidy, we want to move the three misplaced variables (tmin, tmax and days) as three 
+individual columns: tmin. tmax and date.
+
+   ![alt text](https://github.com/vanalex/tidy-data-python/blob/master/images/weather%20data%20cleaned.png)
 
    
 
